@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Document</title>
+        <script>
+            let a = 1;
+            console.log(a);
+
+            function hello(){
+                console.log("Hey Chiri");
+            }
+
+            let b = {
+                r: 34,
+                c: 45,
+                func: function myfunc(number){
+                    console.log("the number is " + number);
+                }
+            }
+
+            document.addEventListener("click", function click(){
+                console.log("clicked");
+                // alert("hello")
+                let conf = confirm("Are you sure?");
+                console.log(conf);
+            })
+
+            let arr = [1,2,3];
+            console.log(arr);
+            console.log(arr.length);
+            setTimeout(() => {
+                console.log("yayyy")
+            }, 1000);
+            console.log("written after setTimeout")
+        </script>
+    </head>
+    <body>
+        <h1>
+            I am learning Java Script
+        </h1>
+    </body>
+</html>
